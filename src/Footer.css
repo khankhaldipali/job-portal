@@ -1,0 +1,125 @@
+.foot
+{
+    background: #272a33;
+    position: relative;
+}
+.footer_widget
+{
+    margin-bottom: 30px;
+}
+.footer_logo
+{
+    margin-bottom: 30px;
+}
+.footer_logo a img
+{
+    width: 102px;
+    height: 38px;
+}
+.footer_widget p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.footer_social a i
+{
+    color: #00cc99;
+    background: #ffffff;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 35px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.footer_widget h3
+{
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 0px;
+}
+.footer_widget h3::before
+{
+    position: absolute;
+    content: '';
+    background: #00cc99;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -15px;
+}
+.footer_widget ul li a
+{
+    color: #d3d3d3;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.footer_widget ul li a i
+{
+    color: #00cc99;
+    font-size: 12px;
+    top: 2px;
+    position: relative;
+    padding-right: 10px;
+    animation: tada 1.5s ease infinite;
+}
+@keyframes tada {
+    0% {
+        transform: scale3d(1,1,1);
+    }
+    10%, 20% {
+        transform: scale3d(.95,.95,.95) rotate3d(0,0,1,-10deg);
+    }
+    30%, 50%, 70%, 90% {
+        transform: scale3d(1,1,1) rotate3d(0,0,1,10deg);
+    }
+    40%, 60%, 80% {
+        transform: rotate3d(0,0,1,-10deg);
+    }
+    100% {
+        transform: scale3d(1,1,1);
+    }
+}
+.footer_info ul li span i
+{
+    color: #00cc99;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+}
+.footer_info ul li a
+{
+    padding-left: 25px;
+    color: #d3d3d3;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.footer_widget ul li span
+{
+    display: block;
+    list-style-type: none;
+    color: #d3d3d3;
+    font-weight: 500;
+}
+.footer_widget ul li
+{
+    list-style-type: none;
+    color: #d3d3d3;
+    margin-bottom: 5px;
+}
+.footer_widget.pl-60 {
+    padding-left: 60px;
+}
+.footer_widget .footer_social a i:hover {
+    background: #00cc99;
+    color: #ffffff;
+}

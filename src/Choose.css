@@ -1,0 +1,81 @@
+.choose
+{
+    background: #231f20;
+    position: relative;
+}
+.why_choose_text
+{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.why_choose_text .section_title h2,p
+{
+    color: #ffffff;
+}
+.media
+{
+    margin-bottom: 30px;
+    display: flex;
+}
+.media i
+{
+    background: #00cc99;
+    transition: .4s linear;
+    font-size: 30px;
+    color: #231f20;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+.media_body
+{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.media_body h5
+{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.media_body p
+{
+    color: #ffffff;
+    font-size: 15px;
+    max-width: 260px;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+.counter_text
+{
+    text-align: center;
+}
+.counter_text h2
+{
+    color: #00cc99;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.counter_text p
+{
+    margin-top: 10px;
+}
+.why_choose_img
+{
+    background-image: url(./image/choose.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+.media:hover  i
+{
+     background-color: #ffffff;
+     transform: rotate(360deg);
+}

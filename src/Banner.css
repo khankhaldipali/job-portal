@@ -1,0 +1,112 @@
+.banner
+{
+    height: 800px;
+    background-image: url(./image/1.jpeg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.banner_text p
+{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-family: "Jost", sans-serif;
+}
+.banner_text h1
+{
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    max-width: 630px;
+    margin: 0 auto 40px;
+    text-transform: capitalize;
+    font-family: "Jost", sans-serif;
+}
+.banner_form
+{
+    padding: 30px;
+    margin-bottom: 45px;
+}
+.form_group
+{
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: left;
+}
+.form_control
+{
+    height: 60px;
+    padding: 12px 20px;
+    transition: 0.5s;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    appearance: none;
+}
+@media (max-width: 767px)
+{
+    .form_control,.find_btn
+    {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+}
+.find_btn
+{
+    background: #00cc99;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    top: 0;
+    position: relative;
+    padding: 16px 20px;
+    transition: 0.5s;
+    border: none;
+}
+.find_btn:hover
+{
+    background: #333031;
+    border: 1px solid  #00cc99;
+}
+.d-table
+{
+    width: 100%;
+    height: 100%;
+}
+.d-table-cell
+{
+    vertical-align: middle;
+}
+.keyword li
+{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.keyword li a
+{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .2s linear;
+}
+.keyword li a:hover
+{
+    color: #00cc99;
+}

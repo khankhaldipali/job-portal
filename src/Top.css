@@ -1,0 +1,33 @@
+.top-btn.active {
+    bottom: 2%;
+}
+.top-btn
+{
+    position: fixed;
+    right: 30px;
+    color: black;
+    font-size: 20px;
+    background: #00cc99;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 2s;
+    z-index: 999;
+}
+.top-btn i
+{
+    animation: fade-up 3s infinite linear;
+}
+@keyframes  fade-up{
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    75% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}

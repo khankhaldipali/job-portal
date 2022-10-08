@@ -1,0 +1,122 @@
+.client
+{
+    background-image: url(./image/client.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+.client::before
+{
+    position: absolute;
+    content: '';
+    background: rgba(35, 31, 32, 0.85);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.client .section_title h2
+{
+    color: #ffff;
+}
+.testi_slider
+{
+    position: relative;
+}
+.testimonial_img
+{
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+.testimonial_img img
+{
+    margin-left: 11px;
+}
+.testimonial_img_text h3
+{
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.testimonial_img_text p
+{
+    color: #c6c4c4;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.testimonial_text
+{
+    padding: 50px 30px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
+.testimonial_text i
+{
+    color: #00cc99;
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.testimonial_text p
+{
+    color: #231f20;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+#slider2 .owl-nav .owl-prev span
+{
+    display: none;
+}
+#slider2 .owl-nav .owl-next
+{
+    position: absolute;
+    bottom: 135px;
+    right: 25px;
+    background: #00cc99 !important;
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 45px !important;
+    transition: 0.5s;
+}
+#slider2 .owl-nav .owl-next span
+{
+    color: #ffffff !important;
+    font-size: 30px !important;
+    font-weight: 700;
+    text-align: center;
+    transform: translateY(-30px)!important;
+}
+#slider2 .owl-nav .owl-next:hover
+{
+    background-color: #231f20!important;
+}
+@media (max-width: 767px)
+{
+    #slider2 .owl-nav .owl-next
+    {
+        bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #slider2 .owl-nav .owl-next
+    {
+        bottom: 0;
+        right: 0;
+    }
+}
+@media  (min-width: 995px) and (max-width: 1199px)  {
+    #slider2 .owl-nav .owl-next
+    {
+        bottom: 25px;
+        right: 15px;
+    }
+}

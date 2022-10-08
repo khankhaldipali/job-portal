@@ -1,0 +1,15 @@
+.copy
+{
+    border-top: 1px solid rgba(232, 238, 244, 0.08);
+    background: #272a33;
+    padding: 20px 0;
+}
+.copy p
+{
+    margin-bottom: 0;
+    color: #ffffff;
+    line-height: 1;
+    font-size: 17px;
+    margin-top: 0;
+    font-family: "Jost", sans-serif;
+}
